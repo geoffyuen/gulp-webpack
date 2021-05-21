@@ -1,0 +1,25 @@
+{
+  "name": "gulp-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/register": "^7.13.16",
+    "babel-loader": "^8.2.2",
+    "gulp": "^4.0.2",
+    "vinyl-named": "^1.1.0",
+    "webpack-stream": "^6.1.2",
+    "yargs": "^17.0.1"
+  },
+  "dependencies": {
+    "slick-carousel": "^1.8.1"
+  }
+}
