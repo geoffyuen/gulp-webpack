@@ -4,22 +4,19 @@
 
 Watch and build:
 
-```
-npm start
-```
+`npm start`
 
 or build for production:
 
-```
-npm run build
-```
+`npm run build`
 
-## Why?
+- write your scripts in `src/js/*js`
+- `slider.js` example uses slick-carousel installed using npm
 
-- bundle src/js/*.js
-- import modules from node_modules
-- import other js from paths
-- example uses slick-carousel installed using npm
+## Why use this?
+
+- take advantake of package management: `import` modules from node_modules instead of copying scripts into folders
+- `import` other js from paths
 
 ## Why Gulp?
 
